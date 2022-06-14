@@ -40,12 +40,12 @@ namespace Release.Downloader
             }
             else
             {
-                title = "Peak Detector Tool";
-                downloadURL = "https://github.com/Kama-Research/PeakDetectionTool/releases/download/V2.3.1/net6.0-windows.zip";
-                targetFolder = @"D:\git\KX\Tools\PeakDetectorAnalyzer\bin\Debug\net6.0-windows\win-x64";
-                executable = "PeakDetectorAnalyzer.exe";
-               // Application.Exit();
-               // return;
+                //title = "Peak Detector Tool";
+                //downloadURL = "https://github.com/Kama-Research/PeakDetectionTool/releases/download/V2.3.1/net6.0-windows.zip";
+                //targetFolder = @"D:\git\KX\Tools\PeakDetectorAnalyzer\bin\Debug\net6.0-windows\win-x64";
+                //executable = "PeakDetectorAnalyzer.exe";
+                Application.Exit();
+                return;
             }
             KilAnalogyIfNeeded();
             Application.Run(new MainForm(title, downloadURL, targetFolder, executable));
