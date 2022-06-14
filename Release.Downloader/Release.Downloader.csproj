@@ -6,14 +6,14 @@
 		<UseWindowsForms>true</UseWindowsForms>
 		<Authors>Lior Banai</Authors>
 		<Company>LIor BanaiLir Banai</Company>
-		<Version>1.0.0</Version>
+		<Version>1.1.0</Version>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
-		<Copyright>Lior Banai 2-2022021-2022</Copyright>
+		<Copyright>Lior Banai 2021-2022</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/Kama-Research/Deployment.Tool.Updater</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/Kama-Research/Deployment.Tool.Updater</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Kama-Research/Release.Downloader</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Kama-Research/Release.Downloader</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
